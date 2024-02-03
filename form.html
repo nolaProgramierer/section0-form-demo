@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Demo Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../css/form0.css">
+        <script type="text/javascript" src="js/form.js"></script>
+    </head>
+
+    <body>
+        <h1>Form HTML</h1>
+        <h2>Please enter your name and email</h2>
+        <form action="#" id="form0">
+            <label for="formtext">First name:</label><br>
+            <input id="formtext" type="text" name="fname" placeholder="First name">
+
+            <label for="lname">Last name:</label><br>
+            <input id="lname" type="text" name="lname" placeholder="Last name">
+
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" name="email" placeholder="email">
+
+            <input type="hidden" name="mysecret" value="Hidden value">
+            <button id="user-btn" type="submit">Send user info</button>
+        </form>
+        
+        <h2>What class are you in?</h2>
+        <form action="#" id="form1">
+            <ul>
+                <li><input type="radio" name="class-year" value="freshman">Freshman</li>
+                <li><input type="radio" name="class-year" value="sophmore">Sophmore</li>
+                <li><input type="radio" name="class-year" value="junior">Junior</li>
+                <li><input type="radio" name="class-year" value="senior">Senior</li>
+            </ul>
+            <button id="class-btn" type="submit">Send class info</button>
+        </form>
+        
+        <h2>Select your favorite piano brand</h2>
+        <form action="#" id="form2">
+            <select name="pianoTypes">
+                <option value="Boesendorfer">Bösendorfer</option>
+                <option value="Bluethner">Blüthner</option>
+                <option value="Steinway">Steinway</option>
+                <option value="Steingraeber">Steingräber</option>
+            </select>
+            <button id="piano-btn" type="submit">Your fave piano</button>
+        </form>
+
+    </body>
+
+</html>

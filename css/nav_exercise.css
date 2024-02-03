@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+nav {
+    background-color: green;
+}
+ul {
+    display: flex;
+    height: 25px;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0px;
+}
+li {
+    margin-right: 1em;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+/* ------------------------------------------------------------- */
+#container {
+    display: flex;
+    flex-direction: column;
+}
+nav1 {
+    background-color: bisque;
+    width: 100%;
+    justify-content: flex-end;
+}
+form {
+    background-color: yellow;
+    text-align: center;  
+}
+
+
