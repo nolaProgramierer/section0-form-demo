@@ -9,7 +9,7 @@ Since the form action attribute value is set to a placeholder value, *#*,
 the form values are being printed to the browser console via
 JavaScript in the JS folder. (which can be ignored for now)
 
-Feel free to fork this repo and clone it for further reference.
+Feel free to fork this repo, clone it and run it locally for further reference.
 
 
 
